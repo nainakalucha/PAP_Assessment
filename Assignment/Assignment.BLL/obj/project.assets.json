@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Assignment.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Assignment.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Common.dll": {}
+        }
+      },
+      "Assignment.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Assignment.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment.Common/1.0.0": {
+      "type": "project",
+      "path": "../Assignment.Common/Assignment.Common.csproj",
+      "msbuildProject": "../Assignment.Common/Assignment.Common.csproj"
+    },
+    "Assignment.Contract/1.0.0": {
+      "type": "project",
+      "path": "../Assignment.Contract/Assignment.Contract.csproj",
+      "msbuildProject": "../Assignment.Contract/Assignment.Contract.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Assignment.Common >= 1.0.0",
+      "Assignment.Contract >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sunaina2498\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.BLL\\Assignment.BLL.csproj",
+      "projectName": "Assignment.BLL",
+      "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.BLL\\Assignment.BLL.csproj",
+      "packagesPath": "C:\\Users\\sunaina2498\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sunaina2498\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj"
+            },
+            "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

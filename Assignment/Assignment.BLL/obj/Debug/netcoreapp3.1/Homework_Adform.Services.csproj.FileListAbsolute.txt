@@ -1,0 +1,15 @@
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.Services.deps.json
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.Services.dll
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.Services.pdb
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.CommonLibrary.dll
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.CommonLibrary.pdb
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\bin\Debug\netcoreapp3.1\Homework_Adform.CommonLibrary.dll.config
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.csprojAssemblyReference.cache
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.AssemblyInfoInputs.cache
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.AssemblyInfo.cs
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.csproj.CoreCompileInputs.cache
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.csproj.CopyComplete
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.dll
+C:\Users\sunaina2498\Desktop\Adform_Assignment-master\Homework_Adform\Homework_Adform.Services\obj\Debug\netcoreapp3.1\Homework_Adform.Services.pdb

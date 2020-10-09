@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Homework_Adform/Homework_Adform.UserAPI
+/Homework_Adform/.vs/Homework_Adform
+/Homework_Adform/API/bin/Debug/netcoreapp3.1
+/Homework_Adform/API/Logs
+/Homework_Adform/API/obj
+/Homework_Adform/Homework_Adform.CommonLibrary/bin/Debug
+/Homework_Adform/Homework_Adform.CommonLibrary/obj/Debug
+/Homework_Adform/Homework_Adform.DAL/bin/Debug/netcoreapp3.1
+/Homework_Adform/Homework_Adform.DAL/obj/Debug/netcoreapp3.1
+/Homework_Adform/Homework_Adform.Services/bin/Debug/netcoreapp3.1
+/Homework_Adform/Homework_Adform.Services/obj/Debug/netcoreapp3.1
+/Homework_Adform/packages
+/Homework_Adform/Homework_Adform.DAL/obj
+/Homework_Adform/Homework_Adform.Services/obj
+/Homework_Adform/Homework_Adform.Tests/bin/Debug/netcoreapp3.1
+/Homework_Adform/Homework_Adform.Tests/obj
