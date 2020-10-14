@@ -2,6 +2,7 @@ using Assignment.BLL;
 using Assignment.Common;
 using Assignment.Contract;
 using Assignment.DAL;
+using Assignment.Model;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;

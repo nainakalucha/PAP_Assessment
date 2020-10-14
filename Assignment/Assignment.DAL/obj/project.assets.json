@@ -1560,6 +1560,16 @@
         "runtime": {
           "bin/placeholder/Assignment.Contract.dll": {}
         }
+      },
+      "Assignment.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        }
       }
     }
   },
@@ -5928,12 +5938,18 @@
       "type": "project",
       "path": "../Assignment.Contract/Assignment.Contract.csproj",
       "msbuildProject": "../Assignment.Contract/Assignment.Contract.csproj"
+    },
+    "Assignment.Model/1.0.0": {
+      "type": "project",
+      "path": "../Assignment.Model/Assignment.Model.csproj",
+      "msbuildProject": "../Assignment.Model/Assignment.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Assignment.Common >= 1.0.0",
       "Assignment.Contract >= 1.0.0",
+      "Assignment.Model >= 1.0.0",
       "AutoMapper >= 10.0.0",
       "Dapper >= 2.0.35",
       "Dapper.ParameterExtensions >= 2018.12.7.1",
@@ -5950,11 +5966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.DAL\\Assignment.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.DAL\\Assignment.DAL.csproj",
       "projectName": "Assignment.DAL",
-      "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.DAL\\Assignment.DAL.csproj",
+      "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.DAL\\Assignment.DAL.csproj",
       "packagesPath": "C:\\Users\\sunaina2498\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.DAL\\obj\\",
+      "outputPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5973,11 +5989,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj": {
-              "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj"
+            "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Common\\Assignment.Common.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Common\\Assignment.Common.csproj"
             },
-            "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj": {
-              "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj"
+            "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Contract\\Assignment.Contract.csproj"
+            },
+            "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Model\\Assignment.Model.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Model\\Assignment.Model.csproj"
             }
           }
         }

@@ -1,5 +1,6 @@
 ﻿using Assignment.Common;
 using Assignment.Contract;
+using Assignment.Model;
 using System.Threading.Tasks;
 
 namespace Assignment.BLL

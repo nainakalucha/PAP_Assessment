@@ -1,4 +1,5 @@
 ﻿using Assignment.Common;
+using Assignment.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace Assignment.DAL

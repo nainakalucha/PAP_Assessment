@@ -1,5 +1,6 @@
 ﻿using Assignment.Common;
 using Assignment.Contract;
+using Assignment.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;

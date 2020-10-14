@@ -1,5 +1,6 @@
 ﻿using Assignment.Common;
 using Assignment.Contract;
+using Assignment.Model;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;

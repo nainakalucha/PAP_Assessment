@@ -43,6 +43,7 @@
     <ProjectReference Include="..\Assignment.Contract\Assignment.Contract.csproj" />
     <ProjectReference Include="..\Assignment.DAL\Assignment.DAL.csproj" />
     <ProjectReference Include="..\Assignment.BLL\Assignment.BLL.csproj" />
+    <ProjectReference Include="..\Assignment.Model\Assignment.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>

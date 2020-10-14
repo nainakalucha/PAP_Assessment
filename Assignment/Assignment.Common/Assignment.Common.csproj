@@ -47,9 +47,6 @@
     <Compile Include="Helpers\AutoMapping.cs" />
     <Compile Include="Helpers\CommonHelper.cs" />
     <Compile Include="Helpers\ConnectionStringConnectionHelper.cs" />
-    <Compile Include="Models\AppSettings.cs" />
-    <Compile Include="Models\DBModels\UserLogin.cs" />
-    <Compile Include="Models\DTOs\UserLoginDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +62,12 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Assignment.Model\Assignment.Model.csproj">
+      <Project>{918018f9-ded9-4bf6-85b9-8df4d41417a1}</Project>
+      <Name>Assignment.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

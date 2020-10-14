@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Assignment.Model;
+using AutoMapper;
 
 namespace Assignment.Common
 {

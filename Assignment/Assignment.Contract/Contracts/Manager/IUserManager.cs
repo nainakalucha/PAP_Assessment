@@ -1,4 +1,4 @@
-﻿using Assignment.Common;
+﻿using Assignment.Model;
 using System.Threading.Tasks;
 
 namespace Assignment.Contract

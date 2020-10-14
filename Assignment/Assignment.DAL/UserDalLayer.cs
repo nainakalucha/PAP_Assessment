@@ -1,5 +1,6 @@
 ﻿using Assignment.Common;
 using Assignment.Contract;
+using Assignment.Model;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;

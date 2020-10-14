@@ -355,6 +355,21 @@
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Assignment.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
@@ -710,6 +725,21 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Assignment.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Model.dll": {}
         }
       }
     },
@@ -1067,6 +1097,21 @@
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Assignment.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
@@ -1422,6 +1467,21 @@
         },
         "runtime": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Assignment.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Assignment.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment.Model.dll": {}
         }
       }
     }
@@ -2065,10 +2125,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Assignment.Model/1.0.0": {
+      "type": "project",
+      "path": "../Assignment.Model/Assignment.Model.csproj",
+      "msbuildProject": "../Assignment.Model/Assignment.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "Assignment.Model >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
       "Microsoft.EntityFrameworkCore >= 3.1.8",
       "Newtonsoft.Json >= 12.0.3"
@@ -2080,11 +2146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj",
+      "projectUniqueName": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Common\\Assignment.Common.csproj",
       "projectName": "Assignment.Common",
-      "projectPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\Assignment.Common.csproj",
+      "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Common\\Assignment.Common.csproj",
       "packagesPath": "C:\\Users\\sunaina2498\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sunaina2498\\Desktop\\Adform_Assignment-master\\Assignment\\Assignment.Common\\obj\\",
+      "outputPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Common\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2100,7 +2166,11 @@
       },
       "frameworks": {
         "net472": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Model\\Assignment.Model.csproj": {
+              "projectPath": "C:\\Users\\sunaina2498\\Documents\\GitHub\\BattleShipApplication\\PAP_Assessment\\Assignment\\Assignment.Model\\Assignment.Model.csproj"
+            }
+          }
         }
       }
     },
