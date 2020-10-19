@@ -19,5 +19,7 @@ namespace Assignment.DAL
         }
 
         public DbSet<UserLogin> UserLogin { get; set; }
+
+        public DbSet<UserChat> UserChat { get; set; }
     }
 }

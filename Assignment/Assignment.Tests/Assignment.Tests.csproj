@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.8" />
+    <PackageReference Include="Moq" Version="4.14.5" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assignment.Api\Assignment.Api.csproj" />
+    <ProjectReference Include="..\Assignment.BLL\Assignment.BLL.csproj" />
+    <ProjectReference Include="..\Assignment.Common\Assignment.Common.csproj" />
+    <ProjectReference Include="..\Assignment.Contract\Assignment.Contract.csproj" />
+    <ProjectReference Include="..\Assignment.DAL\Assignment.DAL.csproj" />
+    <ProjectReference Include="..\Assignment.Model\Assignment.Model.csproj" />
+  </ItemGroup>
+
+</Project>

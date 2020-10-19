@@ -34,7 +34,18 @@ namespace Assignment.Api
         {
             services.AddDbContext<SqlDbContext>(opts => opts.UseSqlServer(ConnectionStringConnectionHelper.GetConnectionString(Configuration)));
             services.AddAutoMapper(c => c.AddProfile<AutoMapping>(), typeof(Startup));
-            services.AddControllers(p => p.RespectBrowserAcceptHeader = true).AddXmlDataContractSerializerFormatters();
+            services.AddControllers(p => p.RespectBrowserAcceptHeader = true);
+            //.AddXmlDataContractSerializerFormatters();
+            
+            services.AddSignalR();
+            services.AddCors(o => o.AddPolicy("AppPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader()
+                       .WithOrigins("http://localhost:60116")
+                       .AllowCredentials();
+            }));
             services.AddHttpContextAccessor();
             services.AddAuthentication(options =>
             {
@@ -54,7 +65,7 @@ namespace Assignment.Api
                         new SymmetricSecurityKey(Encoding.UTF8.GetBytes("JWT Token Secret"))
                 };
 
-                options.RequireHttpsMetadata = false;
+                //options.RequireHttpsMetadata = false;
                 options.SaveToken = true;
             });
 
@@ -65,9 +76,11 @@ namespace Assignment.Api
                 x.ReportApiVersions = true;
             });
 
-
-            services.AddScoped<IUserManager, UserManager>();
             services.AddScoped<IUserDalLayer, UserDalLayer>();
+            services.AddScoped<IUserManager, UserManager>();            
+            services.AddScoped<IChatDalLayer, ChatDalLayer>();
+            services.AddScoped<IChatManager, ChatManager>();
+            
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
             services.AddSwaggerGen(p =>
@@ -113,13 +126,14 @@ namespace Assignment.Api
             app.UseRequestResponseLogging();
             app.ConfigureExceptionMiddleware();
 
-            app.UseRouting();            
+            app.UseRouting();
+            app.UseCors("AppPolicy");
 
             app.UseMiddleware<JwtMiddleware>();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<ChatHub>("/chathub");
             });
             app.UseSwagger();
             app.UseSwaggerUI(c =>

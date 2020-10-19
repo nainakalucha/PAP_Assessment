@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Assignment.BLL/1.0.0": {
+        "dependencies": {
+          "Assignment.Common": "1.0.0",
+          "Assignment.Contract": "1.0.0",
+          "Assignment.Model": "1.0.0"
+        },
+        "runtime": {
+          "Assignment.BLL.dll": {}
+        }
+      },
+      "Assignment.Common/1.0.0": {
+        "runtime": {
+          "Assignment.Common.dll": {}
+        }
+      },
+      "Assignment.Contract/1.0.0": {
+        "runtime": {
+          "Assignment.Contract.dll": {}
+        }
+      },
+      "Assignment.Model/1.0.0": {
+        "runtime": {
+          "Assignment.Model.dll": {}
+        }
+      },
+      "AutoMapper/10.0.0.0": {
+        "runtime": {
+          "AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.8.0": {
+        "runtime": {
+          "Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42004"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assignment.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assignment.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assignment.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

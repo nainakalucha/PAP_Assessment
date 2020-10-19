@@ -14,6 +14,7 @@ namespace Assignment.Common
         public AutoMapping()
         {
             CreateMap<UserLogin, UserLoginDto>().ReverseMap();
+            CreateMap<UserChat, UserChatDto>().ReverseMap();
         }
     }
 }

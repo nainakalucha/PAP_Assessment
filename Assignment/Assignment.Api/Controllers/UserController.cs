@@ -1,7 +1,7 @@
-﻿using Assignment.Common;
-using Assignment.Contract;
+﻿using Assignment.Contract;
 using Assignment.Model;
 using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -18,7 +18,7 @@ namespace Assignment.Api
     /// <summary>
     /// User controller.
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("api/[controller]"), Produces("application/json"), EnableCors("AppPolicy")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -47,19 +47,20 @@ namespace Assignment.Api
         /// <param name="request">Login request.</param>
         /// <returns>Ok if successful.</returns>
         [HttpPost("authenticate")]
-        public async Task<IActionResult> Authenticate(string username, string password)
+        public async Task<IActionResult> Authenticate([FromBody] UserLoginDto model)
         {
             _logger.LogInformation("Authenticate");
-            long? userId = await _userManager.AuthenticateUser(username, password);
+            long? userId = await _userManager.AuthenticateUser(model.UserName, model.UserPass);
             if (!userId.HasValue)
                 return BadRequest(new { message = "Username or password is incorrect" });
 
             // authentication successful so generate jwt token
-            var token = generateJwtToken(userId.Value, username);
-            return StatusCode((int)HttpStatusCode.OK, token);
+            var token = generateJwtToken(userId.Value, model.UserName);
+            var obj = new { Token = token, UserName = model.UserName, UserId = userId };
+            return StatusCode((int)HttpStatusCode.OK, obj);
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         public async Task<IActionResult> Get(long id)
         {

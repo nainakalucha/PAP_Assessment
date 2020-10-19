@@ -31,7 +31,7 @@ namespace Assignment.DAL
         /// <returns>Returns user id.</returns>
         public async Task<long?> AuthenticateUser(string userName, string password)
         {
-            var user = await _dbContext.UserLogin.Where(p => p.Username == userName && p.Password == password).SingleOrDefaultAsync();
+            var user = await _dbContext.UserLogin.Where(p => p.UserName == userName && p.UserPass == password).SingleOrDefaultAsync();
             if (null == user) return null;
             return user.Id;
         }
@@ -45,7 +45,7 @@ namespace Assignment.DAL
         {
             var user = await _dbContext.UserLogin.Where(p => p.Id == userId).SingleOrDefaultAsync();
             if (null == user) return null;
-            return new UserLoginDto { Id = user.Id, Username = user.Username };
+            return new UserLoginDto { Id = user.Id, UserName = user.UserName };
         }
     }
 }

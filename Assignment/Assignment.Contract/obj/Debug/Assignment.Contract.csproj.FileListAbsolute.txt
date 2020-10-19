@@ -65,13 +65,13 @@ C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assig
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Common.dll
+C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.dll
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Common.pdb
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Common.dll.config
+C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.pdb
+C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.dll.config
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\obj\Debug\Assignment.Contract.csprojAssemblyReference.cache
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\obj\Debug\Assignment.Contract.csproj.CoreCompileInputs.cache
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\obj\Debug\Assignment.Contract.csproj.CopyComplete
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\obj\Debug\Assignment.Contract.dll
 C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\obj\Debug\Assignment.Contract.pdb
-C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.dll
-C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.pdb
-C:\Users\sunaina2498\Documents\GitHub\BattleShipApplication\PAP_Assessment\Assignment\Assignment.Contract\bin\Debug\Assignment.Model.dll.config

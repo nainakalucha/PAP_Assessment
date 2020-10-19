@@ -5,6 +5,7 @@
     <UserSecretsId>0a9fd896-1172-4be7-ab40-90874e43fd81</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +24,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
     <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.8" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
       <PrivateAssets>all</PrivateAssets>
@@ -41,8 +43,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Assignment.Common\Assignment.Common.csproj" />
     <ProjectReference Include="..\Assignment.Contract\Assignment.Contract.csproj" />
-    <ProjectReference Include="..\Assignment.DAL\Assignment.DAL.csproj" />
     <ProjectReference Include="..\Assignment.BLL\Assignment.BLL.csproj" />
+    <ProjectReference Include="..\Assignment.DAL\Assignment.DAL.csproj" />
     <ProjectReference Include="..\Assignment.Model\Assignment.Model.csproj" />
   </ItemGroup>
 

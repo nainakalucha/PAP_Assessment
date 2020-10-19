@@ -16,7 +16,7 @@ namespace Assignment.Api
             using (var serviceScope = host.Services.CreateScope())
             {
                 var context = serviceScope.ServiceProvider.GetRequiredService<SqlDbContext>();
-                context.Database.Migrate();
+                //context.Database.Migrate();
             }
             host.Run();
         }

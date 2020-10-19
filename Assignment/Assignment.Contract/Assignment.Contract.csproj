@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\DAL\IChatDalLayer.cs" />
     <Compile Include="Contracts\DAL\IUserDalLayer.cs" />
+    <Compile Include="Contracts\Manager\IChatManager.cs" />
     <Compile Include="Contracts\Manager\IUserManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
